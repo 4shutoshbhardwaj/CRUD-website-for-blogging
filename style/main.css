@@ -1,0 +1,50 @@
+th,td{
+    border: 1px solid #cecece;
+    padding: 5px;
+}
+table>tr{
+    width: 100%;
+}
+table{
+    width: 100%;
+}
+tr>td:nth-child(1){
+    text-align: center;
+}
+tr>td:nth-child(4){
+    text-align: center;
+}
+tr>td:nth-child(5){
+    text-align: center;
+}
+tr>td:nth-child(6){
+    text-align: center;
+}
+tr>td:nth-child(6)>*{
+    background-color: red;
+    color: white;
+    border: red;
+    border-radius: 2px;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: whitesmoke;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#main{
+    width: 40%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+#main>*{
+    margin: 5px 0;
+    padding: 2px;
+}
